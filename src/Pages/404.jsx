@@ -11,6 +11,8 @@ export default function NotFoundPage() {
     window.location.href = '/';
   };
 
+// This is a simple 404 Not Found page with a modern design using Tailwind CSS.
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center px-4">
       <div className="text-center">
