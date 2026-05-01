@@ -142,7 +142,7 @@ const Home = () => {
 
   // Lottie configuration (Fixed rendererSettings)
   const lottieOptions = {
-    src: "public/lottie.json",
+    src: "/lottie.json",
     loop: true,
     autoplay: true,
     style: { width: "100%", height: "100%" },
