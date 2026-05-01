@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Portofolio from "./Pages/Portofolio";
 import Services from "./Pages/Services";
 import ContactPage from "./Pages/Contact";
+import Education from "./Pages/Education";
 import ProjectDetails from "./components/ProjectDetail";
 import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
@@ -31,6 +32,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <About />
           <Portofolio />
           <Services />
+          <Education />
           <ContactPage />
           <footer>
             <center>
