@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from 'react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
+
 import "./index.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -106,7 +106,7 @@ function App() {
           ↑
         </button>
       )}
-      <SpeedInsights />
+
     </BrowserRouter>
   );
 }
