@@ -50,7 +50,7 @@ I'm **Thejan Mihisara**, a Computer Science undergraduate and aspiring Full-Stac
 
 ### Backend & Database
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
 
 ### Build & Deployment
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
