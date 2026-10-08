@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback, memo } from "react";
 import { supabase } from "../supabase"; // Import the supabase client from supabase.js
-import { FileText, Code, Award, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react";
+import { FileText, Code, Award, Briefcase, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -13,7 +13,7 @@ const Header = memo(() => (
       </h2>
     </div>
     <p className="mt-2 text-gray-400 max-w-2xl mx-auto text-base sm:text-lg flex items-center justify-center gap-2">
-      A passionate developer crafting innovative, user-friendly solutions.
+      A passionate developer crafting innovative, user friendly solutions.
     </p>
   </div>
 ));
@@ -118,7 +118,7 @@ const AboutPage = () => {
   }, [fetchCounts]);
 
   return (
-    <div className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
+    <div className="h-auto pb-8 sm:pb-10 text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
       id="About">
       <Header />
 
@@ -147,7 +147,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              A Computer Science undergraduate and aspiring Full-Stack Developer with a strong interest in building scalable web applications and real-world solutions. Experienced in MERN stack development and continuously exploring AI/ML and DevOps. A collaborative learner passionate about innovation, problem-solving, and contributing to impactful technology projects.
+              A Computer Science graduate and Full Stack Developer experienced in building practical, scalable web applications with MERN, Laravel, and Next.js. I have worked on personal and professional projects that turn real requirements into clean, reliable software, while continuing to grow in AI/ML and DevOps.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
@@ -176,7 +176,7 @@ const AboutPage = () => {
         </div>
 
         <a href="#Portofolio">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 cursor-pointer">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mt-16 cursor-pointer">
             {isLoading ? (
               <div>Loading...</div>
             ) : (
@@ -195,6 +195,14 @@ const AboutPage = () => {
                   value={certificatesCount}
                   label="Certificates"
                   description="Professional skills validated"
+                  animation="fade-up"
+                />
+                <StatCard
+                  icon={Briefcase}
+                  color="from-[#6366f1] to-[#a855f7]"
+                  value={6}
+                  label="Months Internship"
+                  description="Software Engineer Intern experience"
                   animation="fade-up"
                 />
                 <StatCard

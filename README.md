@@ -2,7 +2,7 @@
 
 # 🌐 Thejan Mihisara — Personal Portfolio
 
-**A modern, animated full-stack developer portfolio built with React, Tailwind CSS, and Supabase.**
+**A modern, animated full stack developer portfolio built with React, Tailwind CSS, and Supabase.**
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-thejanmihisara.vercel.app-6366f1?style=for-the-badge)](https://thejanmihisara.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-ThejanMihisara-181717?style=for-the-badge&logo=github)](https://github.com/ThejanMihisara)
@@ -16,9 +16,9 @@
 
 ## 👤 About Me
 
-I'm **Thejan Mihisara**, a Computer Science undergraduate and aspiring Full-Stack Developer passionate about building scalable web applications and real-world digital solutions. Experienced in MERN stack development and continuously exploring AI/ML and DevOps.
+I'm **Thejan Mihisara**, a Computer Science graduate and aspiring Full Stack Developer passionate about building scalable web applications and real-world digital solutions. Experienced in MERN stack development and continuously exploring AI/ML and DevOps.
 
-> *"Creating Innovative, Functional, and User-Friendly Websites for Digital Solutions."*
+> *"Creating Innovative, Functional, and User Friendly Websites for Digital Solutions."*
 
 ---
 
