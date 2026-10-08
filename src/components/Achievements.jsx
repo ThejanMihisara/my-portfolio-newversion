@@ -15,13 +15,16 @@ const Certificate = ({ ImgSertif }) => {
 	}
 
 	return (
-		<Box component="div" sx={{ width: "100%" }}>
+		<Box component="div" sx={{ width: "100%", height: "100%" }}>
 			{/* Thumbnail Container */}
 			<Box
 				className=""
 				sx={{
 					position: "relative",
 					overflow: "hidden",
+					height: "100%",
+					aspectRatio: "16 / 9",
+					backgroundColor: "rgba(15, 23, 42, 0.7)",
 					borderRadius: 2,
 					boxShadow: "0 8px 16px rgba(0,0,0,0.1)",
 					transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
@@ -44,6 +47,8 @@ const Certificate = ({ ImgSertif }) => {
 				<Box
 					sx={{
 						position: "relative",
+						width: "100%",
+						height: "100%",
 						"&::before": {
 							content: '""',
 							position: "absolute",
@@ -61,9 +66,9 @@ const Certificate = ({ ImgSertif }) => {
 						alt="Certificate"
 						style={{
 							width: "100%",
-							height: "auto",
+							height: "100%",
 							display: "block",
-							objectFit: "cover",
+							objectFit: "contain",
 							filter: "contrast(1.10) brightness(0.9) saturate(1.1)",
 							transition: "filter 0.3s ease",
 						}}

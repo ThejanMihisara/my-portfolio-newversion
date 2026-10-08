@@ -258,9 +258,9 @@ export default function Portofolio() {
 
         {/* Tab Panels */}
         <TabPanel value={value} index={0}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 auto-rows-fr gap-5">
             {displayedProjects.map((project, index) => (
-              <div key={project.id || index} data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"} data-aos-duration="1000">
+              <div key={project.id || index} className="h-full" data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"} data-aos-duration="1000">
                 <CardProject Img={project.image_url} Title={project.name} Description={project.description} Link={project.link} id={project.id} />
               </div>
             ))}
@@ -269,9 +269,9 @@ export default function Portofolio() {
         </TabPanel>
 
         <TabPanel value={value} index={1}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-fr gap-5">
             {displayedCertificates.map((certificate, index) => (
-              <div key={certificate.id || index} data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"} data-aos-duration="1000">
+              <div key={certificate.id || index} className="h-full" data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"} data-aos-duration="1000">
                 <Certificate ImgSertif={certificate.link} />
               </div>
             ))}
