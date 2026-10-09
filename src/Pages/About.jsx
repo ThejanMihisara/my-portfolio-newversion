@@ -95,7 +95,7 @@ const AboutPage = () => {
       }
 
       // Calculate years of experience
-      const startDate = new Date("2024-01-06");  // The start date when the experience began
+      const startDate = new Date("2023-01-01");  // The start date when the experience began
       const today = new Date();
       const experienceYears = today.getFullYear() - startDate.getFullYear() - 
         (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
@@ -184,7 +184,7 @@ const AboutPage = () => {
                 <StatCard
                   icon={Code}
                   color="from-[#6366f1] to-[#a855f7]"
-                  value={projectsCount}
+                  value={`${projectsCount}+`}
                   label="Total Projects"
                   description="Innovative web solutions crafted"
                   animation="fade-right"
