@@ -79,7 +79,7 @@ const Experience = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <CalendarDays className="h-5 w-5 text-[#a855f7]" />
-                    <span>May 2026 - Present</span>
+                    <span>May 2026 - Nov 2026</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Rocket className="h-5 w-5 text-[#a855f7]" />

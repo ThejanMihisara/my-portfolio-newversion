@@ -27,7 +27,7 @@ const educationData = [
     glowColor: "rgba(168,85,247,0.4)",
   },
   {
-    period: "2024 - Present",
+    period: "2024 - Nov 2026",
     title: "University",
     institution: "SLIIT City Uni (SCU), Colombo 3",
     description: "BSc (Hons) Computer Science, University of Bedfordshire (UK)",
