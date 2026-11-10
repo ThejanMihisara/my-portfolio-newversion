@@ -55,7 +55,7 @@ const TimelineCard = memo(({ item, index }) => {
       {/* Card */}
       <div
         className={`w-full md:w-5/12 ${
-          isLeft ? "md:mr-auto md:pr-8" : "md:ml-auto md:pl-8"
+          isLeft ? "md:mr-auto md:pr-8 lg:pr-16" : "md:ml-auto md:pl-8"
         }`}
       >
         <div

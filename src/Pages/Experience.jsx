@@ -75,7 +75,17 @@ const Experience = () => {
                 <div className="space-y-3 text-gray-300">
                   <div className="flex items-center gap-3">
                     <Building2 className="h-5 w-5 text-[#a855f7]" />
-                    <span>Applantics (PVT) Ltd</span>
+                    <span>
+                      Applantics (PVT) Ltd{" "}
+                      <a
+                        href="https://possystem.lk/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#a855f7] transition-colors hover:text-[#c084fc] hover:underline"
+                      >
+                        (possystem.lk)
+                      </a>
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CalendarDays className="h-5 w-5 text-[#a855f7]" />
